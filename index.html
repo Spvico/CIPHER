@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>CIPHER</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { height: 100%; margin: 0; background: #101215; color: #e4e7eb; }
+</style>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/host.css">
+<link rel="stylesheet" href="css/game.css">
+<link rel="stylesheet" href="css/os.css">
+<link rel="stylesheet" href="css/apps.css">
+
+<div id="app"></div>
+<div id="toasts"></div>
+
+<script src="js/core/util.js"></script>
+<script src="js/core/audio.js"></script>
+<script src="js/core/host.js"></script>
+<script src="js/data/data.js"></script>
+<script src="js/game/state.js"></script>
+<script src="js/game/contracts.js"></script>
+<script src="js/games/bruteforce.js"></script>
+<script src="js/games/logiclock.js"></script>
+<script src="js/games/circuit.js"></script>
+<script src="js/games/inject.js"></script>
+<script src="js/games/decrypt.js"></script>
+<script src="js/games/sweep.js"></script>
+<script src="js/game/run.js"></script>
+<script src="js/ui/ui.js"></script>
+<script src="js/ui/art.js"></script>
+<script src="js/ui/kit.js"></script>
+<script src="js/ui/apps_a.js"></script>
+<script src="js/ui/apps_b.js"></script>
+<script src="js/ui/apps_c.js"></script>
+<script src="js/ui/desktop.js"></script>
+<script>
+  // Bring the game up once everything is parsed.
+  window.addEventListener('load', function () { CIPHER.boot(); });
+</script>
+
+</body></html>
